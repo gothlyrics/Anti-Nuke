@@ -202,8 +202,8 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <repository-url>
-cd tghelp
+git clone https://github.com/yasimmy/Anti-Nuke.git
+cd Anti-Nuke
 ```
 
 ### 2. Установка зависимостей
@@ -212,12 +212,8 @@ pip install -r requirements.txt
 ```
 
 ### 3. Настройка конфигурации
-1. Скопируйте `config.example.json` в `config.json`:
-   ```bash
-   cp config.example.json config.json
-   ```
 
-2. Откройте `config.json` и настройте:
+1. Откройте `config.json` и настройте:
    - **Токен бота** (`bot.token`)
    - **ID ролей** (`roles.verified`, `roles.unverified`, `roles.admin`)
    - **ID каналов** (`channels.verification`, `channels.verification_logs`, и т.д.)
@@ -225,7 +221,7 @@ pip install -r requirements.txt
    - **Параметры анти-спама** и других систем
    - **ID сервера для синхронизации** (`bot.serversynh`)
 
-3. Настройте статус бота:
+2. Настройте статус бота:
    - `bot.status` - статус Discord (online, idle, dnd, invisible, offline)
    - `bot.activity_type` - тип активности (stream, playing, listening, watching, competing)
    - `bot.activity` - текст активности
@@ -241,10 +237,9 @@ python main.py
 ## 📁 Структура проекта
 
 ```
-tghelp/
+Anti-Nuke/
 ├── main.py                      # Главный файл бота
-├── config.json                  # Конфигурация (не в git)
-├── config.example.json          # Пример конфигурации
+├── config.json                  # Конфигурация
 ├── requirements.txt             # Зависимости Python
 ├── README.md                    # Документация
 ├── INSTALL.md                   # Инструкция по установке
