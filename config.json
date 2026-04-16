@@ -1,11 +1,11 @@
 {
   "bot": {
-    "token": "YOUR_BOT_TOKEN_HERE",
+    "token": "MTQ5NDQzMjg5NDQxMDgxNzU0Ng.G7NNNq.eDNO7T1_64YHmo8UOcvNXRfovkcpT_wS_0s08Y",
     "prefix": "!",
     "status": "online",
     "activity_type": "stream",
     "activity": "Защищаю сервера",
-    "stream_url": "https://www.twitch.tv/zaykaa__",
+    "stream_url": "",
     "serversynh": "YOUR_SERVER_ID_FOR_SYNC"
   },
   "roles": {
